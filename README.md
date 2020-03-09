@@ -1,6 +1,27 @@
 # PrefInt
-Integrating Data via Preference Learning
+The PrefInt package provides a way of integrating data via preference learning. For more details, please check our online manuscript: https://arxiv.org/abs/1910.11516
 
-This is a Python Lib related to manuscript: https://arxiv.org/abs/1910.11516
 
 Python Version: 2.7
+## Example
+For generating pairwise preference via traindata and add preference with new point:
+
+```python
+from PrefInt.preference_generate import generate_pair
+GN = generate_pair(traindata)
+prefs = GN.firstgen()
+
+newprefs = GN.addnew(newdata)
+```
+For training the pairwise preference:
+
+```python
+from PrefInt.ibo.gaussianprocess import PrefGaussianProcess
+from PrefInt.ibo.gaussianprocess.kernel import GaussianKernel_iso
+
+kernel = GaussianKernel_iso(np.array([18.0]))
+GP = PrefGaussianProcess(kernel)
+GP.addPreferences(prefs)
+```
+## License
+The PrefInt package is licensed under the MIT "Expat" License
