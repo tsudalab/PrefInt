@@ -4,6 +4,8 @@ The PrefInt package provides a way of integrating data via preference learning. 
 Python Version: 2.7
 ## Example
 For generating pairwise preference via traindata and add preference with new point:
+This is for add single new datapoint during iteration in optimization. 
+For adding more datapoints at one step, please extend the traindata to regenerate the pairs.
 
 ```python
 from PrefInt.preference_generate import generate_pair
