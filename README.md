@@ -1,7 +1,8 @@
 # PrefInt
 The PrefInt package provides a way of integrating data via preference learning. For more details, please check our online manuscript: https://arxiv.org/abs/1910.11516
 
-Python Version: 2.7
+Python version: 3.7
+!The code was recently rewrote from python 2.7 to python 3.7. 
 ## Example
 For generating pairwise preference via traindata and add preference with new point:      
 This is for adding single new datapoint during iteration in optimization. 
