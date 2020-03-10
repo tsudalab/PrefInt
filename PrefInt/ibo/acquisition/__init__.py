@@ -21,7 +21,7 @@
 # check https://github.com/misterwindupbird/IBO for more details
 
 from numpy import array, sqrt, max, arange, log, nan, linalg, isscalar, pi
-from code.ibo.gaussianprocess import CDF, PDF
+from PrefInt.ibo.gaussianprocess import CDF, PDF
 
 
 class EI(object):
