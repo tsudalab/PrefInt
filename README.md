@@ -25,6 +25,6 @@ kernel = GaussianKernel_iso(np.array([18.0]))
 GP = PrefGaussianProcess(kernel)
 GP.addPreferences(prefs)
 ```
-For more examples, please check [examples](https://github.com/tsudalab/PrefInt/tree/master/Examples) and [utility](https://github.com/tsudalab/PrefInt/tree/master/PrefInt/utility).
+For more examples, please check [examples](https://github.com/tsudalab/PrefInt/tree/master/examples) and [utility](https://github.com/tsudalab/PrefInt/tree/master/PrefInt/utility).
 ## License
 The PrefInt package is licensed under the MIT "Expat" License
