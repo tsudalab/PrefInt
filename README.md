@@ -1,6 +1,8 @@
 # PrefInt
 The PrefInt package provides a way of integrating data via preference learning. For more details, please check our online manuscript: https://arxiv.org/abs/1910.11516
 
+## Update
+We have provided a new repository DPDI that integrating data via neural network with higher efficiency. Please refer to: [PrefIntNN](https://github.com/tsudalab/PrefIntNN)
 Python version: 3.7   
 !The code was recently rewrote from python 2.7 to python 3.7. 
 ## Example
